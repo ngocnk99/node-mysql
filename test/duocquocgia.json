@@ -1,0 +1,61 @@
+{
+  "ma_don_thuoc_quoc_gia": "79498.2003240000088741845",
+  "ma_don_thuoc_co_so_kcb": "2003240000088741845",
+  "thong_tin_don_vi": {
+    "ma_co_so_kcb": "79498",
+    "ten_co_so_kcb": "BỆNH VIỆN ĐA KHOA MỸ ĐỨC",
+    "ma_loai_co_so_kcb": null,
+    "ma_khoa": null,
+    "ten_khoa": null
+  },
+  "thong_tin_benh_nhan": {
+    "ma_benh_nhan": "20800333",
+    "ho_ten": "NGUYỄN VÕ NHƯ Ý",
+    "ngay_sinh": "",
+    "gioi_tinh": 2,
+    "can_nang": null,
+    "chieu_cao": null,
+    "dia_chi": "Ấp 8, Xã Phước Tân Hưng, Huyện Châu Thành, Long An"
+  },
+  "thong_tin_benh": {
+    "ma_benh": "Z00.0",
+    "ten_benh": "Khám sức khỏe tổng quát",
+    "ma_benh_khac": null,
+    "ten_benh_khac": ""
+  },
+  "thong_tin_don_thuoc": [
+    {
+      "ma_thuoc": "DQG00035288",
+      "ma_nhom": null,
+      "ten_thuoc": "Sterogyl ",
+      "don_vi_tinh": "Chai",
+      "ham_luong": "2MUI/100ml- 20ml", // note
+      "duong_dung": "uống",
+      "lieu_dung": "uống sáng 01 giọt",
+      "so_dang_ky": "VN-10250-10",
+      "so_luong": 1
+    }
+  ],
+  "ngay_ke_don": "202003240752",
+  "thong_tin_bac_si": {
+    "ma_bac_si": null,
+    "ho_ten": "Bs. Phan Đăng Nghị"
+  },
+  "don_thuoc_gpp": {
+    "ma_don_thuoc": "2003240000088741845",
+    "bac_si_ke_don": "Bs. Phan Đăng Nghị",
+    "co_so_kham_chua_benh": "BỆNH VIỆN ĐA KHOA MỸ ĐỨC",
+    "ma_benh_nhan": "20800333",
+    "benh_nhanh": "NGUYỄN VÕ NHƯ Ý",
+    "dia_chi_benh_nhan": "Ấp 8, Xã Phước Tân Hưng, Huyện Châu Thành, Long An",
+    "dien_thoai_co_so_kham_chua_benh": "",
+    "chuan_doan_bac_si": "",
+    "cmnd_benh_nhan": "",
+    "gioi_tinh_benh_nhan": 2,
+    "the_bhyt_benh_nhan": "",
+    "can_nang_benh_nhan": 0,
+    "tuoi_benh_nhan": 0,
+    "loai_tuoi_benh_nhan": 1,
+    "nguoi_giam_ho": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "options":{
+    "fileRoot": "/userfiles/"
+  },
+  "allowFolderDownload": false,
+
+  "charsLatinOnly": false,
+
+  "normalizeFilename": true,
+  "security": {
+    "readOnly": false,
+    "extensions":{
+      "policy": "ALLOW_LIST",
+      "ignoreCase": true,
+      "restrictions": ["jpg", "jpeg", "gif", "png", "svg", "ogv", "avi", "mkv", "mp4", "webm", "m4v", "ogg", "mp3", "wav"]
+    }
+  },
+  "readOnly": false,
+  "extensions": {
+    "policy": {
+      "allow": true
+    },
+    "restrictions": "jpg,jpe,jpeg,gif,png,svg,txt,pdf,odp,ods,odt,rtf,doc,docx,xls,xlsx,ppt,pptx,csv,ogv,avi,mkv,mp4,webm,m4v,ogg,mp3,wav,zip,md"
+  },
+  "patterns": {
+    "policy": {
+      "allow": false
+    },
+    "restrictions": {
+      "file": "",
+      "folder": ""
+    }
+  },
+  "upload": {
+    "fileSizeLimit": 16000000
+  },
+  "images": {
+    "extensions": "jpg, jpe, jpeg, gif, png, svg, bmp",
+    "thumbnail": {
+      "enabled": true,
+      "maxWidth": 100,
+      "maxHeight": 100,
+      "dir": ""
+    }
+  }
+}

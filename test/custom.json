@@ -1,0 +1,35 @@
+{
+  "issueCode": "01-002001PNT2389", // 
+  "goodIssueInvoiceCode": "",
+  "mobile": "0964232825",
+  "customersName": "Nguyễn Tuấn Anh",
+  "issueDate": "2020-06-29T08:33:16.102Z",
+  "usersSellerId": "1",
+  "paymentMethodsId": "1",
+  "invoiceCode": "123456789",
+  "invoiceDate": "2020-06-29T08:33:16.102Z",
+  "warehousesId": "21",
+  "debit": false,
+  "descriptions": "3:30",
+  "status": true,
+  "placesId": "35",
+  "detail": [
+    {
+      "discount": 1,
+      "vat": 0,
+      "duongDung": "1",
+      "dosePerDay": 1,
+      "isRetail": false,
+      "medicinesId": "19",
+      "price": 100000,
+      "quantities": 1,
+      "quantitiesPerTime": 1,
+      "unitsId": "11",
+      "retailQuantities": 1,
+      "wholeSaleQuantities": 0,
+      "receiptDetailId": "27"
+    }
+  ],
+  "customersId": "0",
+  "method": "post"
+}

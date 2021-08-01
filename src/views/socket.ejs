@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--    <script src=" https://socketdev.nhathuocgpp.com.vn/socket.io/socket.io.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <title>test socket.io</title>
+</head>
+
+<body>
+<h1>test socket.io</h1>
+<script>
+
+  const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW5fbmJtIiwidXNlcklkIjoiMSIsImlhdCI6MTU5MDM4MjA2NCwiZXhwIjoxNTkyOTc0MDY0fQ.wrQqVQHySwOS2PX9ujBnwWAKkKiPBjLecwGESKpiO3s";
+  //const socket = io.connect(`localhost:777?token=${token}`);
+  const socket = io.connect(`https://socketdev.nhathuocgpp.com.vn?token=${token}`);
+  socket.on('connect', () => {
+    console.log(socket.id);
+    socket.on('messages', function(data) {
+      console.log('messages data: ', data);
+    });
+    socket.on('getMessagesFromUser', function(data) {
+      console.log('getMessagesFromUser data: ', data);
+    });
+    socket.on('notifications', function(data) {
+      console.log('notifications data: ', data);
+    });
+    socket.on('errors', function(data) {
+      console.log('errors data: ', data);
+    });
+    socket.on('getPageMessages', function (data){
+      console.log('getPageMessages data',data);
+    });
+  });
+  // socket.emit('joinRoom', {placeId:'196'});
+  // socket.emit('getPlaceMessages', {placeId:'196'});
+  //      https://socketdev.nhathuocgpp.com.vn localhost:777
+  // https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js
+  // https://socketdev.nhathuocgpp.com.vn/socket.io/socket.io.js
+</script>
+</body>
+</html>
+
